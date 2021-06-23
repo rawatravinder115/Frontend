@@ -5,6 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        a:link{
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited{
+            color: blue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover{
+            color: red;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:active{
+            color: goldenrod;
+            background-color: transparent;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body style="background-color:grey">
 
@@ -20,6 +42,8 @@
 
     <!-- for horizon layer  -->
     <hr>
+
+    <a href="#c4">go to hello html</a><br><br>
 
 
     <a href="https://www.youtube.com">this is the link </a>
@@ -66,6 +90,41 @@
     <h1 style="color: blueviolet;">hello color text</h1>
     <h1 style="border: 2px solid tomato;">hello bordered text</h1>
     <h2 style="border: 1px dashed green">hello bashed border</h2>
+
+    <hr>
+
+    <!-- target attribute to define where to open the linked document -->
+
+    <a href="http://www.youtube.com" target="_blank" style="border: 2px solid green;">Default. Opens the document in the same window/tab as it was clicked</a><br>
+    <br>
+    <a href="http://www.youtube.com" target="_self" style="border: 2px solid blue;"> Opens the document in a new window or tab</a><br>
+    <br>
+    <a href="http://www.youtube.com" target="_parent" style="border: 2px solid greenyellow;">Opens the document in the parent frame</a><br>
+    <br>
+    <a href="http://www.youtube.com" target="_top" style="border: 2px solid silver;">Opens the document in the full body of the window</a><br>
+    <br>
+
+ <!-- <img> element (inside <a>) to use an image as a link -->
+
+    <a href="http://www.youtube.com">
+        <img src="C:\Users\RAVINDER\Desktop" alt ="nature" width="1000" height="1000" >
+
+    </a><br>
+    <br>
+
+    <h2 id="c4">hello html</h2>
+
+    <!-- mailto: scheme inside the href attribute to create a link that opens the user's email program -->
+    
+    <a href="mailto:someone@gmail.com" style="color:blueviolet;"> <h2>send mail</h2></a><br>
+    <button onclick=""></button><br>
+    <a href="http://www.youtube.com" title="go to youtube">visit youtube</a><br>
+
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg"
+        alt="dog photo" width="300" height="300"
+    >
+
+
 
 
 
